@@ -9,6 +9,6 @@ import com.pm.patientservice.model.patient;
 
 @Repository
 public interface PatientRepository extends JpaRepository<patient, UUID> {
-//	boolean exiexistsByEmil(String email);
+    boolean existsByEmail(String email);
 
 }
